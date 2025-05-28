@@ -8,10 +8,13 @@ Goal: Predict calorie expenditure based on features like age, height, weight, he
 Evaluation Metric: Root Mean Squared Logarithmic Error (RMSLE).
 
 
-##Project Summary
+## Project Summary
 
 Model: LightGBM regressor
+
 Feature Engineering: One-hot encoding for sex, derived features like BMI and High_Body_Temp
+
 Training: Early stopping to avoid overfitting
+
 Evaluation: RMSLE metric
-This project demonstrates effective feature engineering and model tuning to accurately predict calorie burn.
+
